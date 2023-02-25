@@ -62,11 +62,11 @@ AccessModifierOffset: -2
 BreakBeforeBraces: Attach
 JavaScriptQuotes: Single
 JavaScriptWrapImports: false
+IndentWidth: 4
+TabWidth: 4
 UseTab: Never
-TabWidth: 2
 ConstructorInitializerIndentWidth: 2
 ContinuationIndentWidth: 2
-IndentWidth: 2
 ColumnLimit: 0
 Language: JavaScript
 ...
