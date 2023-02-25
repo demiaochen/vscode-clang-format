@@ -2,9 +2,24 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/xaverh/vscode-clang-format/blob/master/LICENSE) [![Marketplace](https://img.shields.io/badge/marketplace-vscode-blue)](https://marketplace.visualstudio.com/items?itemName=demiaochen.clang-format-indent-4)
 
+## Code Formatter
+
+Use clang-format to format your C/C++/Java/JavaScript/Objective-C/Objective-C++/Protobuf with indentations of 4 spaces like the following:
+
+```cpp
+if (int i = 0; i < n; ++i) {
+    while (true) {
+        foo();
+    }
+} else {
+    baz();
+}
+```
+
 ## Acknowledgement
 
-The extension is forked from <https://github.com/xaverh/vscode-clang-format-provider> and modified to use clang-format with indent 4.
+The extension is forked from <https://github.com/xaverh/vscode-clang-format-provider> and modified to use clang-format with indent 4. More usage details can be found in the original repo.
+
 ## Usage
 
 Install clang-format:
@@ -27,7 +42,7 @@ Add the following to your vscode `settings.json` file (open with `Ctrl/CMD+Shift
 }
 `````
 
-To automatically format a file on save, add the following to your vscode `settings.json` file:
+To automatically format a file on save, add the following to your vscode `settings.json` file (example for C++):
 
 ```json
 {
