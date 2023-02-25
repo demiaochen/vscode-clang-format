@@ -1,8 +1,8 @@
 {
   "name": "clang-format-indent-4",
-  "displayName": "Clang Format Indent 4",
+  "displayName": "Clang-Format Indent 4",
   "description": "Use Clang Format Indent 4 in Visual Studio Code",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "publisher": "demiaochen",
   "engines": {
     "vscode": "^1.15.0"
