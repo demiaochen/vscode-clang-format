@@ -1,9 +1,9 @@
 {
-  "name": "clang-format",
-  "displayName": "Clang-Format",
-  "description": "Use Clang-Format in Visual Studio Code",
-  "version": "1.9.0",
-  "publisher": "xaver",
+  "name": "clang-format-indent-4",
+  "displayName": "Clang Format Indent 4",
+  "description": "Use Clang Format Indent 4 in Visual Studio Code",
+  "version": "1.10.0",
+  "publisher": "demiaochen",
   "engines": {
     "vscode": "^1.15.0"
   },
@@ -325,10 +325,10 @@
     "vsce": "^2.14.0",
     "vscode": "^1.1.37"
   },
-  "icon": "clang-format.png",
+  "icon": "ever17.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xaverh/vscode-clang-format-provider"
+    "url": "https://github.com/demiaochen/vscode-clang-format-indent-4"
   },
   "license": "MIT"
 }
