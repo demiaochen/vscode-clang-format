@@ -21,7 +21,7 @@ function getPlatformString() {
 export class ClangDocumentFormattingEditProvider implements vscode.DocumentFormattingEditProvider, vscode.DocumentRangeFormattingEditProvider {
   private defaultConfigure = {
     executable: 'clang-format',
-    style: 'file',
+    style: '{IndentWidth: 4, TabWidth: 4, UseTab: Never}',
     fallbackStyle: 'none',
     assumeFilename: ''
   };

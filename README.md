@@ -22,19 +22,21 @@ The extension is forked from <https://github.com/xaverh/vscode-clang-format-prov
 
 ## Usage
 
-Install clang-format:
+Install clang-format use one of the following methods:
 
 ``` bash
-npm install -g clang-format
+npm install -g clang-format       # NPM
+sudo apt install clang-format     # Ubuntu Linux
+winget install -e --id LLVM.LLVM  # Windows
 ```
 
-Get absolute path to clang-format:
+Obtain the absolute path to clang-format:
 
 ```bash
 which clang-format
 ```
 
-Add the following to your vscode `settings.json` file (open with `Ctrl/CMD+Shift+P` and select `Preferences: Open Settings (JSON)`):
+Add the following to your vscode `settings.json` file (open with `Ctrl/CMD+Shift+P` and select `Preferences: Open User Settings (JSON)`):
 
 ```json
 {
@@ -50,6 +52,14 @@ To automatically format a file on save, add the following to your vscode `settin
   "[cpp]": {
     "editor.defaultFormatter": "demiaochen.clang-format-indent-4",
   }
+}
+```
+
+If you want to use a specific clang-format config file, add the following to your vscode `settings.json` file, and create a `.clang-format` file in the root of your project:
+
+```json
+{
+  "clang-format.style": "file",
 }
 ```
 

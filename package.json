@@ -2,7 +2,7 @@
   "name": "clang-format-indent-4",
   "displayName": "Clang-Format Indent 4",
   "description": "Use Clang Format Indent 4 in Visual Studio Code",
-  "version": "1.10.2",
+  "version": "1.10.10",
   "publisher": "demiaochen",
   "engines": {
     "vscode": "^1.15.0"
@@ -72,7 +72,7 @@
         },
         "clang-format.style": {
           "type": "string",
-          "default": "file",
+          "default": "",
           "description": "clang-format style.(-style=value, value can be file, LLVM, Google, Chromium, Mozilla, WebKit or json configure)"
         },
         "clang-format.fallbackStyle": {
