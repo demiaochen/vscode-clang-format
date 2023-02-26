@@ -1,6 +1,6 @@
 # Clang-Format Indent 4 for VS Code
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/xaverh/vscode-clang-format/blob/master/LICENSE) [![Marketplace](https://img.shields.io/badge/marketplace-vscode-blue)](https://marketplace.visualstudio.com/items?itemName=demiaochen.clang-format-indent-4)
+[![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/demiaochen/vscode-clang-format-indent-4/blob/master/LICENSE) [![Marketplace](https://img.shields.io/badge/marketplace-vscode-blue)](https://marketplace.visualstudio.com/items?itemName=demiaochen.clang-format-indent-4)
 
 ## Code Formatter
 
