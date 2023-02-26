@@ -18,7 +18,7 @@ if (int i = 0; i < n; ++i) {
 
 ## Acknowledgement
 
-The extension is forked from <https://github.com/xaverh/vscode-clang-format-provider> and modified to use clang-format with indent 4. More usage details can be found in the original repo.
+The extension is forked from [Xaver Hellauer's Repo](<https://github.com/xaverh/vscode-clang-format-provider>) and modified to use clang-format with indent 4. More usage details can be found in the original repo.
 
 ## Usage
 
